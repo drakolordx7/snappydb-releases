@@ -23,7 +23,7 @@ You browse ModDB and Indie DB inside the app and press Download. SnappyDB works 
 - Mount & Blade: Warband and Bannerlord
 - Unreal Tournament (1999) and Unreal Gold
 
-Other games get a plain file overlay. Doom and Half-Life are tested by playing them; the rest are checked against real ModDB downloads but haven't been played through SnappyDB yet.
+Other games get a plain file overlay. Doom, Half-Life and Counter-Strike 1.6 are tested by playing them; the rest are checked against real ModDB downloads but haven't been played through SnappyDB yet.
 
 Installers that can't be unpacked run inside [Sandboxie-Plus](https://sandboxie-plus.com/downloads/), which you install separately.
 
