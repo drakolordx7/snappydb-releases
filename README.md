@@ -11,7 +11,19 @@ The installer isn't code-signed yet, so Windows may warn that it "protected your
 
 ## What it does
 
-You browse ModDB and Indie DB inside the app and press Download. SnappyDB works out whether a file is a mod, a patch or a standalone game, and puts each mod in its own setup. A setup is built from the copy of the game you already have, and your real game folder is never changed. Version 0.1 supports classic Doom (through UZDoom) and Half-Life mods, plus a plain file overlay for other games.
+You browse ModDB and Indie DB inside the app and press Download. SnappyDB works out whether a file is a mod, a patch or a standalone game, and puts each mod in its own setup. A setup is built from the copy of the game you already have, and your real game folder is never changed. Supported games:
+
+- Classic Doom (through UZDoom) and Quake (through Ironwail)
+- Half-Life, Counter-Strike 1.6 and the other GoldSrc games
+- Half-Life 2, its episodes, Counter-Strike: Source, Portal and Source SDK mods
+- Battlefield 1942, Vietnam, 2 and 2142
+- Command & Conquer: Generals and Zero Hour
+- Star Wars: Empire at War - Forces of Corruption
+- S.T.A.L.K.E.R.: Shadow of Chernobyl, Clear Sky, Call of Pripyat and Anomaly
+- Mount & Blade: Warband and Bannerlord
+- Unreal Tournament (1999) and Unreal Gold
+
+Other games get a plain file overlay. Doom and Half-Life are tested by playing them; the rest are checked against real ModDB downloads but haven't been played through SnappyDB yet.
 
 Installers that can't be unpacked run inside [Sandboxie-Plus](https://sandboxie-plus.com/downloads/), which you install separately.
 
